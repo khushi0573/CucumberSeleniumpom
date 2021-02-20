@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T07:24:26.115Z",
+        "line": 2,
+        "name": "image checking scenario",
+        "description": "",
+        "id": "image-checking-features;image-checking-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "user is on home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user clicks on shop",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user clicks on home",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "useris on arrival page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "each image should be click \u0026 navigate",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "image checking features",
+    "description": "",
+    "id": "image-checking-features",
+    "keyword": "Feature",
+    "uri": "file:feature/image.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T07:24:26.424Z",
+        "line": 2,
+        "name": "home page must  contains only three slides",
+        "description": "",
+        "id": "three-slide--feature;home-page-must--contains-only-three-slides",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "user is on home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user click on shop",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user clicks on home page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on slider page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "three slide  Feature",
+    "description": "",
+    "id": "three-slide--feature",
+    "keyword": "Feature",
+    "uri": "file:feature/slide.feature",
+    "tags": []
+  }
+]
